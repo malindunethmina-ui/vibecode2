@@ -16,18 +16,22 @@ def calculate_grade():
             # Calculate the average
             average = (mark1 + mark2 + mark3) / 3
 
-            print(f"\nStudent Name: {name}")
-            print(f"Average Mark: {average:.2f}")
-
-            # Assign Grades based on average
+            # Determine Grade
             if average >= 75:
-                print("Grade: A")
+                grade = "A"
             elif average >= 60:
-                print("Grade: B")
+                grade = "B"
             elif average >= 40:
-                print("Grade: C")
+                grade = "C"
             else:
-                print("Status: Fail")
+                grade = "Fail"
+
+            # Formatted Output
+            print("\n------------------------------")
+            print(f"Name    : {name}")
+            print(f"Average : {average:.1f}")
+            print(f"Grade   : {grade}")
+            print("------------------------------")
 
         except ValueError:
             print("Invalid input. Please enter numeric values for marks.")
