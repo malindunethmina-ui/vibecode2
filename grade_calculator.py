@@ -14,9 +14,13 @@ def calculate_grade():
         print(f"\nStudent Name: {name}")
         print(f"Average Mark: {average:.2f}")
 
-        # Display Pass if average >= 40, otherwise Fail
-        if average >= 40:
-            print("Status: Pass")
+        # Assign Grades based on average
+        if average >= 75:
+            print("Grade: A")
+        elif average >= 60:
+            print("Grade: B")
+        elif average >= 40:
+            print("Grade: C")
         else:
             print("Status: Fail")
 
