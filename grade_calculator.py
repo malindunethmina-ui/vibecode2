@@ -20,8 +20,12 @@ def calculate_grade():
         else:
             print("Status: Fail")
 
+        # Keep the window open
+        input("\nPress Enter to exit...")
+
     except ValueError:
         print("Invalid input. Please enter numeric values for marks.")
+        input("\nPress Enter to exit...")
 
 if __name__ == "__main__":
     calculate_grade()
