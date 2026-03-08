@@ -21,5 +21,9 @@ This report documents the evolution of the **Student Profile Card** project thro
 > "make the computer science button a little bit bigger"
 *   **Action:** Increased padding and font-size for the `stream-tag` component and added letter-spacing for better readability.
 
+## 6. Refinement: Title Simplification
+> "can you only keep the student profile card in head"
+*   **Action:** Simplified the `<title>` tag in `index.html` from "Student Profile Card | Glassmorphism" to "Student Profile Card".
+
 ---
 *Created by Gemini CLI on March 5, 2026*
